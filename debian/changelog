@@ -1,0 +1,5 @@
+ruby-actionpack-page-caching (1.0.2-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #nnnn)
+
+ -- Balasankar C <balasankarc@autistici.org>  Fri, 21 Nov 2014 18:55:21 +0530

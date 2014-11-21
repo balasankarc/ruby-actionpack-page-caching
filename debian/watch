@@ -1,0 +1,2 @@
+version=3
+http://pkg-ruby-extras.alioth.debian.org/cgi-bin/gemwatch/actionpack-page_caching .*/actionpack-page_caching-(.*).tar.gz
