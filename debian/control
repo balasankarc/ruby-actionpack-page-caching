@@ -3,12 +3,12 @@ Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Balasankar C <balasankarc@autistici.org>
-Build-Depends: debhelper (>= 7.0.50~), gem2deb
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-actionpack, ruby-minitest
+Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-actionpack-page-caching.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-actionpack-page-caching.git;a=summary
 Homepage: https://github.com/rails/actionpack-page_caching
-Testsuite: autopkgtest
+Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 
 Package: ruby-actionpack-page-caching
@@ -16,5 +16,14 @@ Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
 # actionpack (< 5, >= 4.0.0), mocha (>= 0, development)
-Description: Static page caching for Action Pack (removed from core in Rails 4.0)
- Static page caching for Action Pack (removed from core in Rails 4.0)
+Description: static page caching for Action Pack (removed from core in Rails 4.0)
+ Static page caching for Action Pack (removed from core in Rails 4.0). Page 
+ caching is an approach to caching where the entire action output of is stored 
+ as a HTML file that the web server can serve without going through Action Pack.
+  This is the fastest way to cache your content as opposed to going dynamically 
+ through the process of generating the content. Unfortunately, this incredible 
+ speed-up is only available to stateless pages where all visitors are treated 
+ the same. Content management systems -- including weblogs and wikis -- have 
+ many pages that are a great fit for this approach, but account-based systems 
+ where people log in and manipulate their own data are often less likely 
+ candidates.

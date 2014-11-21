@@ -1,0 +1,17 @@
+Description: Bundler Dependency
+ Removing bundler dependecy from test file.
+ .
+ ruby-actionpack-page-caching (1.0.2-1) UNRELEASED; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)
+Author: Balasankar C <balasankarc@autistici.org>
+
+
+--- ruby-actionpack-page-caching-1.0.2.orig/test/abstract_unit.rb
++++ ruby-actionpack-page-caching-1.0.2/test/abstract_unit.rb
+@@ -1,4 +1,4 @@
+-require 'bundler/setup'
++#require 'bundler/setup'
+ require 'minitest/autorun'
+ require 'action_controller'
+ require 'action_controller/page_caching'
