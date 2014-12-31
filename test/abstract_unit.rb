@@ -1,4 +1,4 @@
-#require 'bundler/setup'
+require 'bundler/setup'
 require 'minitest/autorun'
 require 'action_controller'
 require 'action_controller/page_caching'

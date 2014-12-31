@@ -3,7 +3,7 @@ Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Balasankar C <balasankarc@autistici.org>
-Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-actionpack, ruby-minitest
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-actionpack, ruby-test-unit
 Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-actionpack-page-caching.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-actionpack-page-caching.git;a=summary
@@ -14,7 +14,7 @@ XS-Ruby-Versions: all
 Package: ruby-actionpack-page-caching
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-actionpack
 # actionpack (< 5, >= 4.0.0), mocha (>= 0, development)
 Description: static page caching for Action Pack (removed from core in Rails 4.0)
  Static page caching for Action Pack (removed from core in Rails 4.0). Page 
