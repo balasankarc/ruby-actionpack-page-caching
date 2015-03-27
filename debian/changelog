@@ -1,3 +1,9 @@
+ruby-actionpack-page-caching (1.0.2-2) unstable; urgency=medium
+
+  * Added Breaks+Replaces relation for ruby-actionpack-2.3 (Closes: #779660)
+
+ -- Balasankar C <balasankarc@autistici.org>  Fri, 27 Mar 2015 12:18:21 +0530
+
 ruby-actionpack-page-caching (1.0.2-1) unstable; urgency=medium
 
   * Initial release (Closes: #775549)
