@@ -1,8 +1,14 @@
+ruby-actionpack-page-caching (1.0.2-3) unstable; urgency=medium
+
+  * Fix long description (Closes: #781801) 
+
+ -- Balasankar C <balasankarc@autistici.org>  Sun, 05 Apr 2015 22:19:53 +0530
+
 ruby-actionpack-page-caching (1.0.2-2) unstable; urgency=medium
 
-  * Added Breaks+Replaces relation for ruby-actionpack-2.3 (Closes: #779660)
+  * Added Breaks+Replaces relation for ruby-actionpack-2.3 (Closes: #779660) 
 
- -- Balasankar C <balasankarc@autistici.org>  Fri, 27 Mar 2015 12:18:21 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Fri, 27 Mar 2015 16:45:08 +0530
 
 ruby-actionpack-page-caching (1.0.2-1) unstable; urgency=medium
 

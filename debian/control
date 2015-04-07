@@ -18,10 +18,11 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-actio
 Breaks: ruby-actionpack-2.3
 Replaces: ruby-actionpack-2.3
 Description: static page caching for Action Pack (removed from core in Rails 4.0)
- Static page caching for Action Pack (removed from core in Rails 4.0). Page 
- caching is an approach to caching where the entire action output of is stored 
- as a HTML file that the web server can serve without going through Action Pack.
-  This is the fastest way to cache your content as opposed to going dynamically 
+ Page caching is an approach to caching where the entire action output of is 
+ stored as a HTML file that the web server can serve without going through 
+ Action Pack.
+ .
+ This is the fastest way to cache your content as opposed to going dynamically 
  through the process of generating the content. Unfortunately, this incredible 
  speed-up is only available to stateless pages where all visitors are treated 
  the same. Content management systems -- including weblogs and wikis -- have 
